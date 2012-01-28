@@ -37,20 +37,20 @@
 		BBEF16F414D3A64100D45139 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BBEF16F614D3A64100D45139 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BBEF16F814D3A64100D45139 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		BBEF16FC14D3A64100D45139 /* ButtonExample-Info.plist */ = {isa = PBXFileReference; path = "ButtonExample-Info.plist"; sourceTree = "<group>"; };
+		BBEF16FC14D3A64100D45139 /* ButtonExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ButtonExample-Info.plist"; sourceTree = "<group>"; };
 		BBEF16FE14D3A64100D45139 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BBEF170014D3A64100D45139 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BBEF170214D3A64100D45139 /* ButtonExample-Prefix.pch */ = {isa = PBXFileReference; path = "ButtonExample-Prefix.pch"; sourceTree = "<group>"; };
-		BBEF170314D3A64100D45139 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		BBEF170214D3A64100D45139 /* ButtonExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ButtonExample-Prefix.pch"; sourceTree = "<group>"; };
+		BBEF170314D3A64100D45139 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BBEF170414D3A64100D45139 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BBEF170614D3A64100D45139 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		BBEF170614D3A64100D45139 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		BBEF170714D3A64100D45139 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BBEF170A14D3A64100D45139 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		BBEF171114D3A64100D45139 /* ButtonExampleTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ButtonExampleTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBEF171214D3A64100D45139 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		BBEF171A14D3A64100D45139 /* ButtonExampleTests-Info.plist */ = {isa = PBXFileReference; path = "ButtonExampleTests-Info.plist"; sourceTree = "<group>"; };
+		BBEF171A14D3A64100D45139 /* ButtonExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ButtonExampleTests-Info.plist"; sourceTree = "<group>"; };
 		BBEF171C14D3A64100D45139 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		BBEF171E14D3A64100D45139 /* ButtonExampleTests.h */ = {isa = PBXFileReference; path = ButtonExampleTests.h; sourceTree = "<group>"; };
+		BBEF171E14D3A64100D45139 /* ButtonExampleTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ButtonExampleTests.h; sourceTree = "<group>"; };
 		BBEF171F14D3A64100D45139 /* ButtonExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonExampleTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 

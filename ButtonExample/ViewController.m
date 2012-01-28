@@ -9,6 +9,7 @@
 #import "ViewController.h"
 
 @implementation ViewController
+@synthesize ourFirstButton;
 
 - (void)didReceiveMemoryWarning
 {
@@ -55,6 +56,17 @@
 {
     // Return YES for supported orientations
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+}
+
+-(IBAction)buttonPressed:(id)sender{
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Button Pressed" message:@"button was successfully pressed" delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles: nil];
+    [alert show];
+    [alert release];
+}
+
+-(void)dealloc {
+    [ourFirstButton release];
+    [super dealloc];
 }
 
 @end
